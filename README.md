@@ -2,14 +2,26 @@
 Solutions to problems from Advent of Code 2025.
 
 ---
-## Repository Structure.
-.
-└── Day 1
-    ├── input.txt -- Input file.
-    ├── locker.py
-    └── second_locker.py
+### Repository Structure.
+<pre>
+  .
+  ├── Day 1
+  │   ├── ans.txt
+  │   ├── input.txt
+  │   ├── locker.py
+  │   ├── second_locker.c
+  │   └── second_locker.py
+  ├── Day 2
+  │   ├── ans.txt
+  │   ├── input.txt
+  │   ├── pattern.py
+  │   └── spattern.py
+  ├── LICENSE
+  └── README.md
 
-2 directories, 3 files
+3 directories, 10 files
+</pre>
+
 ---
-## Thanks:
+### Thanks:
 <a href="https://github.com/topaz">Eric Wastl(@topaz)</a>
