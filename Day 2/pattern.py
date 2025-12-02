@@ -24,15 +24,9 @@ def isInvalid(n):
     elif l % 2 != 0:
         return False
 
-    # Since an invalid ID is made up of two equal halfs, check if they are same.
-    shalf = n[l//2:]
-    if (l // 2 - 1 == 0):
-        fhalf = n[0]
-    else:
-        # Consider characters from 0 to l//2 - 1.
-        fhalf = n[0:l//2]
-
-    if (fhalf == shalf):
+    # An invalid ID is made up of two equal halfs.
+    # If multiplying the first half twice gives the number itself, the it's invalid.
+    if (n[0:l//2] * 2 == n):
         return True
     return False
 
