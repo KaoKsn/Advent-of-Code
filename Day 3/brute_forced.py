@@ -1,6 +1,5 @@
 def lcomb(bank):
     largest = int(bank[0:2])
-    # 
     l = len(bank)
     for i, f in enumerate(bank[0:l-1]):
         for s in bank[i+1:]:

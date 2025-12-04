@@ -16,10 +16,18 @@ Solutions to problems from Advent of Code 2025.
   │   ├── input.txt
   │   ├── pattern.py
   │   └── spattern.py
+  ├── Day 3
+  │   ├── ans.txt
+  │   ├── brute_forced.py
+  │   ├── gen_batteries.py
+  │   └── input.txt
+  ├── Day 4
+  │   ├── input.txt
+  │   └── validrolls.py
   ├── LICENSE
   └── README.md
 
-3 directories, 10 files
+5 directories, 17 files
 </pre>
 
 ---
